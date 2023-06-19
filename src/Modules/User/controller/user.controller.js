@@ -1,4 +1,4 @@
-import userModel from "../../../../DB/model/user.model.js"
+import userModel from "../../../../DB/model/User.model.js"
 import cloudinary from "../../../Services/cloudinary.js"
 
 export const profile = (req,res)=>{
