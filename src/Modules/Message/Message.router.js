@@ -1,6 +1,6 @@
 import { Router } from "express";
 import * as messageController from "./controller/Message.controller.js"
-import { auth } from "../../middleware/auth.middleware.js";
+import { auth } from "../../middleware/Auth.middleware.js";
 const router = Router()
 
 router.post('/:receiverId',messageController.sendMessage)
